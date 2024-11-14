@@ -1,0 +1,21 @@
+version = 1
+
+[install]
+curl.pkg-path = "curl"
+dosbox-x.pkg-path = "dosbox-x"
+
+[options]
+systems = ["aarch64-darwin", "aarch64-linux", "x86_64-darwin", "x86_64-linux"]
+
+[build.commander-keen]
+command = '''
+  rm -rf $out
+  mkdir -p $out/games $out/bin
+  curl --location -O https://archive.org/download/msdos_Commander_Keen_1_-_Marooned_on_Mars_1990/Commander_Keen_1_-_Marooned_on_Mars_1990.zip
+  unzip Commander_Keen_1_-_Marooned_on_Mars_1990.zip -d $out/games
+  DOSBOX=$(readlink $(which dosbox-x))
+  cat > $out/bin/commander-keen <<STR
+$DOSBOX -c "mount g $out/games/CKeen1" -c "g:" -c "KEEN1.EXE" -fastlaunch
+STR
+  chmod +x $out/bin/commander-keen
+'''
