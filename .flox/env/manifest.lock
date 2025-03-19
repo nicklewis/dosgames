@@ -13,8 +13,6 @@
     "vars": {
       "ZIP_URI": "https://archive.org/download/msdos_Commander_Keen_1_-_Marooned_on_Mars_1990/Commander_Keen_1_-_Marooned_on_Mars_1990.zip"
     },
-    "hook": {},
-    "profile": {},
     "options": {
       "systems": [
         "aarch64-darwin",
@@ -29,11 +27,7 @@
     },
     "build": {
       "commander-keen": {
-        "command": "  mkdir -p $out/bin\n  curl -sLO $ZIP_URI\n  unzip $(basename $ZIP_URI) -d $out\n  cat > $out/bin/commander-keen <<STR\ndosbox-x -c \"mount g $out/CKeen1\" -c \"g:\" -c \"KEEN1.EXE\" -fastlaunch\nSTR\n  chmod +x $out/bin/commander-keen\n",
-        "files": null,
-        "runtime-packages": null,
-        "systems": null,
-        "sandbox": null
+        "command": "  mkdir -p $out/bin\n  curl -sLO $ZIP_URI\n  unzip $(basename $ZIP_URI) -d $out\n  cat > $out/bin/commander-keen <<STR\ndosbox-x -c \"mount g $out/CKeen1\" -c \"g:\" -c \"KEEN1.EXE\" -fastlaunch\nSTR\n  chmod +x $out/bin/commander-keen\n"
       }
     }
   },
