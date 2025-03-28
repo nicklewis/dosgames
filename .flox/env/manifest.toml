@@ -18,5 +18,6 @@ command = '''
   cat > $out/bin/commander-keen <<STR
 dosbox-x -c "mount g $out/CKeen1" -c "g:" -c "KEEN1.EXE" -fastlaunch
 STR
+exit 1
   chmod +x $out/bin/commander-keen
 '''
