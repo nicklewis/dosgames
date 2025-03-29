@@ -10,7 +10,7 @@ systems = ["aarch64-darwin", "aarch64-linux", "x86_64-darwin", "x86_64-linux"]
 [vars]
 ZIP_URI = "https://archive.org/download/msdos_Commander_Keen_1_-_Marooned_on_Mars_1990/Commander_Keen_1_-_Marooned_on_Mars_1990.zip"
 
-[build.commander-keen]
+[build.commander-keen-new]
 command = '''
   mkdir -p $out/bin
   curl -sLO $ZIP_URI
@@ -18,6 +18,5 @@ command = '''
   cat > $out/bin/commander-keen <<STR
 dosbox-x -c "mount g $out/CKeen1" -c "g:" -c "KEEN1.EXE" -fastlaunch
 STR
-exit 1
   chmod +x $out/bin/commander-keen
 '''
