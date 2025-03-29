@@ -22,7 +22,7 @@
       ]
     },
     "build": {
-      "commander-keen-new-new": {
+      "commander-keen": {
         "command": "  mkdir -p $out/bin\n  curl -sLO $ZIP_URI\n  unzip $(basename $ZIP_URI) -d $out\n  cat > $out/bin/commander-keen <<STR\ndosbox-x -c \"mount g $out/CKeen1\" -c \"g:\" -c \"KEEN1.EXE\" -fastlaunch\nSTR\n  chmod +x $out/bin/commander-keen\n",
         "description": "commander keen"
       }
