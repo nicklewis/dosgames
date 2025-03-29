@@ -11,6 +11,7 @@ systems = ["aarch64-darwin", "aarch64-linux", "x86_64-darwin", "x86_64-linux"]
 ZIP_URI = "https://archive.org/download/msdos_Commander_Keen_1_-_Marooned_on_Mars_1990/Commander_Keen_1_-_Marooned_on_Mars_1990.zip"
 
 [build.commander-keen-new-new]
+description = "commander keen"
 command = '''
   mkdir -p $out/bin
   curl -sLO $ZIP_URI
