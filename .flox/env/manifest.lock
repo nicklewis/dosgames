@@ -23,7 +23,8 @@
     },
     "build": {
       "commander-keen": {
-        "command": "  mkdir -p $out/bin\n  curl -sLO $ZIP_URI\n  unzip $(basename $ZIP_URI) -d $out\n  cat > $out/bin/commander-keen <<STR\n$(which dosbox-x) -c \"mount g $out/CKeen1\" -c \"g:\" -c \"KEEN1.EXE\" -fastlaunch\nSTR\n  chmod +x $out/bin/commander-keen\n"
+        "command": "  mkdir -p $out/bin\n  curl -sLO $ZIP_URI\n  unzip $(basename $ZIP_URI) -d $out\n  cat > $out/bin/commander-keen <<STR\n$(which dosbox-x) -c \"mount g $out/CKeen1\" -c \"g:\" -c \"KEEN1.EXE\" -fastlaunch\nSTR\n  chmod +x $out/bin/commander-keen\n",
+        "description": "Commander Keen 1 - Marooned on Mars (1990) for DOSBox-X"
       }
     }
   },
