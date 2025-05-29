@@ -16,7 +16,7 @@ command = '''
   curl -sLO $ZIP_URI
   unzip $(basename $ZIP_URI) -d $out
   cat > $out/bin/commander-keen <<STR
-dosbox-x -c "mount g $out/CKeen1" -c "g:" -c "KEEN1.EXE" -fastlaunch
+$(which dosbox-x) -c "mount g $out/CKeen1" -c "g:" -c "KEEN1.EXE" -fastlaunch
 STR
   chmod +x $out/bin/commander-keen
 '''
