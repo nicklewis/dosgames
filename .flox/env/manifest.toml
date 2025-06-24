@@ -3,6 +3,7 @@ version = 1
 [install]
 curl.pkg-path = "curl"
 dosbox-x.pkg-path = "dosbox-x"
+unzip.pkg-path = "unzip"
 
 [options]
 systems = ["aarch64-darwin", "aarch64-linux", "x86_64-darwin", "x86_64-linux"]
@@ -21,3 +22,5 @@ STR
   chmod +x $out/bin/commander-keen
 '''
 description = "Commander Keen 1 - Marooned on Mars (1990) for DOSBox-X"
+sandbox = "pure"
+runtime-packages = ["dosbox-x"]

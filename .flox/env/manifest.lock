@@ -8,6 +8,9 @@
       },
       "dosbox-x": {
         "pkg-path": "dosbox-x"
+      },
+      "unzip": {
+        "pkg-path": "unzip"
       }
     },
     "vars": {
@@ -24,6 +27,10 @@
     "build": {
       "commander-keen": {
         "command": "  mkdir -p $out/bin\n  curl -sLO $ZIP_URI\n  unzip $(basename $ZIP_URI) -d $out\n  cat > $out/bin/commander-keen <<STR\n$(which dosbox-x) -c \"mount g $out/CKeen1\" -c \"g:\" -c \"KEEN1.EXE\" -fastlaunch\nSTR\n  chmod +x $out/bin/commander-keen\n",
+        "runtime-packages": [
+          "dosbox-x"
+        ],
+        "sandbox": "pure",
         "description": "Commander Keen 1 - Marooned on Mars (1990) for DOSBox-X"
       }
     }
@@ -36,13 +43,13 @@
       "description": "Command line tool for transferring files with URL syntax",
       "install_id": "curl",
       "license": "curl",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
       "name": "curl-8.8.0",
       "pname": "curl",
-      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
-      "rev_count": 659698,
-      "rev_date": "2024-07-28T16:52:11Z",
-      "scrape_date": "2024-07-31T03:03:33Z",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
       "unfree": false,
       "version": "8.8.0",
       "outputs_to_install": [
@@ -67,13 +74,13 @@
       "description": "Command line tool for transferring files with URL syntax",
       "install_id": "curl",
       "license": "curl",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
       "name": "curl-8.8.0",
       "pname": "curl",
-      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
-      "rev_count": 659698,
-      "rev_date": "2024-07-28T16:52:11Z",
-      "scrape_date": "2024-07-31T03:03:33Z",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
       "unfree": false,
       "version": "8.8.0",
       "outputs_to_install": [
@@ -99,13 +106,13 @@
       "description": "Command line tool for transferring files with URL syntax",
       "install_id": "curl",
       "license": "curl",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
       "name": "curl-8.8.0",
       "pname": "curl",
-      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
-      "rev_count": 659698,
-      "rev_date": "2024-07-28T16:52:11Z",
-      "scrape_date": "2024-07-31T03:03:33Z",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
       "unfree": false,
       "version": "8.8.0",
       "outputs_to_install": [
@@ -130,13 +137,13 @@
       "description": "Command line tool for transferring files with URL syntax",
       "install_id": "curl",
       "license": "curl",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
       "name": "curl-8.8.0",
       "pname": "curl",
-      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
-      "rev_count": 659698,
-      "rev_date": "2024-07-28T16:52:11Z",
-      "scrape_date": "2024-07-31T03:03:33Z",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
       "unfree": false,
       "version": "8.8.0",
       "outputs_to_install": [
@@ -162,13 +169,13 @@
       "description": "Cross-platform DOS emulator based on the DOSBox project",
       "install_id": "dosbox-x",
       "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
       "name": "dosbox-x-2024.07.01",
       "pname": "dosbox-x",
-      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
-      "rev_count": 659698,
-      "rev_date": "2024-07-28T16:52:11Z",
-      "scrape_date": "2024-07-31T03:03:33Z",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
       "unfree": false,
       "version": "2024.07.01",
       "outputs_to_install": [
@@ -188,13 +195,13 @@
       "description": "Cross-platform DOS emulator based on the DOSBox project",
       "install_id": "dosbox-x",
       "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
       "name": "dosbox-x-2024.07.01",
       "pname": "dosbox-x",
-      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
-      "rev_count": 659698,
-      "rev_date": "2024-07-28T16:52:11Z",
-      "scrape_date": "2024-07-31T03:03:33Z",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
       "unfree": false,
       "version": "2024.07.01",
       "outputs_to_install": [
@@ -214,13 +221,13 @@
       "description": "Cross-platform DOS emulator based on the DOSBox project",
       "install_id": "dosbox-x",
       "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
       "name": "dosbox-x-2024.07.01",
       "pname": "dosbox-x",
-      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
-      "rev_count": 659698,
-      "rev_date": "2024-07-28T16:52:11Z",
-      "scrape_date": "2024-07-31T03:03:33Z",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
       "unfree": false,
       "version": "2024.07.01",
       "outputs_to_install": [
@@ -240,13 +247,13 @@
       "description": "Cross-platform DOS emulator based on the DOSBox project",
       "install_id": "dosbox-x",
       "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
       "name": "dosbox-x-2024.07.01",
       "pname": "dosbox-x",
-      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
-      "rev_count": 659698,
-      "rev_date": "2024-07-28T16:52:11Z",
-      "scrape_date": "2024-07-31T03:03:33Z",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
       "unfree": false,
       "version": "2024.07.01",
       "outputs_to_install": [
@@ -254,6 +261,110 @@
       ],
       "outputs": {
         "out": "/nix/store/q55q20yb6j71dlv4f4x1w103nbanmls1-dosbox-x-2024.07.01"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "unzip",
+      "broken": false,
+      "derivation": "/nix/store/fhnxk9r30q1fmclcdmy0spxh18bsv96k-unzip-6.0.drv",
+      "description": "Extraction utility for archives compressed in .zip format",
+      "install_id": "unzip",
+      "license": "Info-ZIP",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "unzip-6.0",
+      "pname": "unzip",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "unfree": false,
+      "version": "6.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hgfklqs3vjrmr5a7pqq8gklx2sldzscf-unzip-6.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "unzip",
+      "broken": false,
+      "derivation": "/nix/store/ybfkw9xw614iknydc5aa0smqi77b4srh-unzip-6.0.drv",
+      "description": "Extraction utility for archives compressed in .zip format",
+      "install_id": "unzip",
+      "license": "Info-ZIP",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "unzip-6.0",
+      "pname": "unzip",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "unfree": false,
+      "version": "6.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/vrbvia89r2yvvzswwb2dl1dmv8wi64xj-unzip-6.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "unzip",
+      "broken": false,
+      "derivation": "/nix/store/j3yrdkvasq9bgm4j6z0sgw2hqvm4wyrc-unzip-6.0.drv",
+      "description": "Extraction utility for archives compressed in .zip format",
+      "install_id": "unzip",
+      "license": "Info-ZIP",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "unzip-6.0",
+      "pname": "unzip",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "unfree": false,
+      "version": "6.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/yzmjbd5n5qlgnpfsvi4s8ribc12rqm1b-unzip-6.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "unzip",
+      "broken": false,
+      "derivation": "/nix/store/86jp8g8f8pr0gkfv5cc4i3j3aq8ybhj1-unzip-6.0.drv",
+      "description": "Extraction utility for archives compressed in .zip format",
+      "install_id": "unzip",
+      "license": "Info-ZIP",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "unzip-6.0",
+      "pname": "unzip",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "unfree": false,
+      "version": "6.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/wlrkr1gkqxwc530av5zm7zvyy9xhx35x-unzip-6.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
