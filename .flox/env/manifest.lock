@@ -40,29 +40,32 @@
     {
       "attr_path": "curl",
       "broken": false,
-      "derivation": "/nix/store/ynsqkmwscqz9ch6dnl0vvf5dgb66kyx7-curl-8.8.0.drv",
+      "derivation": "/nix/store/076npq8w0ihqjl6l241k7ai25rxjg50h-curl-8.13.0.drv",
       "description": "Command line tool for transferring files with URL syntax",
       "install_id": "curl",
       "license": "curl",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
-      "name": "curl-8.8.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "curl-8.13.0",
       "pname": "curl",
-      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
-      "rev_count": 665011,
-      "rev_date": "2024-08-11T07:55:43Z",
-      "scrape_date": "2024-08-14T02:08:40Z",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:36:15.850926Z",
+      "stabilities": [
+        "unstable"
+      ],
       "unfree": false,
-      "version": "8.8.0",
+      "version": "8.13.0",
       "outputs_to_install": [
         "bin",
         "man"
       ],
       "outputs": {
-        "bin": "/nix/store/3a0wpz3jlr9k56znj1728djwzv0n4k5r-curl-8.8.0-bin",
-        "dev": "/nix/store/l6h5s1l6y5x2gdsr2c0zd6ck901k72gm-curl-8.8.0-dev",
-        "devdoc": "/nix/store/93kh2pnzwcq7bygnjs5i56ah4d7n0rbq-curl-8.8.0-devdoc",
-        "man": "/nix/store/iq2i19aspbbvbys7xi91v4b00xb6nylm-curl-8.8.0-man",
-        "out": "/nix/store/9v7hc5hm591539hlka47dj8ibjnbv0r2-curl-8.8.0"
+        "bin": "/nix/store/j9l00pb7vjqichx1pb9wh44mmpmsy5i8-curl-8.13.0-bin",
+        "dev": "/nix/store/hh6z6aagackr90b8148gmnzjch5x56h7-curl-8.13.0-dev",
+        "devdoc": "/nix/store/5mvbv3mqr8bi1rn3fjninmrgdrkm4hjy-curl-8.13.0-devdoc",
+        "man": "/nix/store/vjypp34nlg9v1q278yswlg8v85mr6cd1-curl-8.13.0-man",
+        "out": "/nix/store/dw53si81ax5jkn23vpncsiizxzx8bz9b-curl-8.13.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -71,30 +74,33 @@
     {
       "attr_path": "curl",
       "broken": false,
-      "derivation": "/nix/store/cbdq1pjvm1xw2bd9m73l26yjnld1hr45-curl-8.8.0.drv",
+      "derivation": "/nix/store/n5s6cfgdx10wqrvng4jfaajvzmgv112m-curl-8.13.0.drv",
       "description": "Command line tool for transferring files with URL syntax",
       "install_id": "curl",
       "license": "curl",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
-      "name": "curl-8.8.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "curl-8.13.0",
       "pname": "curl",
-      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
-      "rev_count": 665011,
-      "rev_date": "2024-08-11T07:55:43Z",
-      "scrape_date": "2024-08-14T02:08:40Z",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:54:48.425581Z",
+      "stabilities": [
+        "unstable"
+      ],
       "unfree": false,
-      "version": "8.8.0",
+      "version": "8.13.0",
       "outputs_to_install": [
         "bin",
         "man"
       ],
       "outputs": {
-        "bin": "/nix/store/vw8il31201b00fwijj5dclrinpi371vb-curl-8.8.0-bin",
-        "debug": "/nix/store/860q6cd8kzfm00rhs8k66znb2p6vygv6-curl-8.8.0-debug",
-        "dev": "/nix/store/w7kxbfcb66d53jsnww0v7mmxx600pqvw-curl-8.8.0-dev",
-        "devdoc": "/nix/store/7j1sym3l7wwldacpbfl7ni2i7mrvdlsj-curl-8.8.0-devdoc",
-        "man": "/nix/store/7pbf28nmnbcdmaray4sr6l3gd28dyjyr-curl-8.8.0-man",
-        "out": "/nix/store/lalbnj7315s73fxn9wpk3i2dg0pin6vw-curl-8.8.0"
+        "bin": "/nix/store/q8i9ywjn4pkjk5sfx26jg35870dfnp3i-curl-8.13.0-bin",
+        "debug": "/nix/store/8s9qjwxfb6d70b81q0rjalyfhlr0npzv-curl-8.13.0-debug",
+        "dev": "/nix/store/n5zr628wakfhlz9nav97vcf32iixz7dc-curl-8.13.0-dev",
+        "devdoc": "/nix/store/bcn8dajl5d8fc589z8n5a8h7x7bzxgrp-curl-8.13.0-devdoc",
+        "man": "/nix/store/83g8mdy735nf01d77nc2pxgzwz977dpf-curl-8.13.0-man",
+        "out": "/nix/store/dxgrykw0d6rzxkilf8pl4rp308311xjs-curl-8.13.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -103,29 +109,32 @@
     {
       "attr_path": "curl",
       "broken": false,
-      "derivation": "/nix/store/6r63xivhh46afzagg68ycx2941ci9b5j-curl-8.8.0.drv",
+      "derivation": "/nix/store/qg63n4mfdjykl7micwhsjm1q3gcbp4hb-curl-8.13.0.drv",
       "description": "Command line tool for transferring files with URL syntax",
       "install_id": "curl",
       "license": "curl",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
-      "name": "curl-8.8.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "curl-8.13.0",
       "pname": "curl",
-      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
-      "rev_count": 665011,
-      "rev_date": "2024-08-11T07:55:43Z",
-      "scrape_date": "2024-08-14T02:08:40Z",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:12:23.092748Z",
+      "stabilities": [
+        "unstable"
+      ],
       "unfree": false,
-      "version": "8.8.0",
+      "version": "8.13.0",
       "outputs_to_install": [
         "bin",
         "man"
       ],
       "outputs": {
-        "bin": "/nix/store/2241jrfkxw58c8857qk0ylryibxg1590-curl-8.8.0-bin",
-        "dev": "/nix/store/zxf340drqdn90a8sx8gdgx3ayf66s181-curl-8.8.0-dev",
-        "devdoc": "/nix/store/0jinz0m7gb0zr95gbqbqw6zcv9s51626-curl-8.8.0-devdoc",
-        "man": "/nix/store/0rzdyiw6dkklx6jmwvzx9jxysvzjikd8-curl-8.8.0-man",
-        "out": "/nix/store/ng16vcrzjd0p7lvlfyj6l94vwimykf1s-curl-8.8.0"
+        "bin": "/nix/store/q5w08sli5mf1awlxsiicywvz2j6j2y8l-curl-8.13.0-bin",
+        "dev": "/nix/store/nkqcwv2k6s47bbdms95fpmghlr3qmxbf-curl-8.13.0-dev",
+        "devdoc": "/nix/store/zi91mkzh78gzc5fs98i7xni6dmcvn036-curl-8.13.0-devdoc",
+        "man": "/nix/store/mngfjkv5qsz7s1hwkcda7yhsbwgf125x-curl-8.13.0-man",
+        "out": "/nix/store/xl9ibq6wmh3xx5z55svf2hzpzlj766x1-curl-8.13.0"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -134,30 +143,33 @@
     {
       "attr_path": "curl",
       "broken": false,
-      "derivation": "/nix/store/mwn39fsjg9rk0z89cay72mrbwnfqgxzd-curl-8.8.0.drv",
+      "derivation": "/nix/store/hcx74yj013nivh7ljaizr3dar8qsm2bc-curl-8.13.0.drv",
       "description": "Command line tool for transferring files with URL syntax",
       "install_id": "curl",
       "license": "curl",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
-      "name": "curl-8.8.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "curl-8.13.0",
       "pname": "curl",
-      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
-      "rev_count": 665011,
-      "rev_date": "2024-08-11T07:55:43Z",
-      "scrape_date": "2024-08-14T02:08:40Z",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:32:27.869252Z",
+      "stabilities": [
+        "unstable"
+      ],
       "unfree": false,
-      "version": "8.8.0",
+      "version": "8.13.0",
       "outputs_to_install": [
         "bin",
         "man"
       ],
       "outputs": {
-        "bin": "/nix/store/g37vd707w8bdp919rdnwwld27wsmhqff-curl-8.8.0-bin",
-        "debug": "/nix/store/dvhapczz22wvp0s9ac69qqqm6l8v812z-curl-8.8.0-debug",
-        "dev": "/nix/store/k7dijz2bzra5m32cs1zf1kgpzxg08x90-curl-8.8.0-dev",
-        "devdoc": "/nix/store/8ir4cggnbannsvch97vhzlcm66ffn462-curl-8.8.0-devdoc",
-        "man": "/nix/store/b4dcsaqi4rq412266xjgsdxhlz3j9j1l-curl-8.8.0-man",
-        "out": "/nix/store/y6w7agm3aw5p96q7vsgzivba0dqq3rd0-curl-8.8.0"
+        "bin": "/nix/store/s2np0ri22gq9pq0fnv3yqjsbsbmw16xi-curl-8.13.0-bin",
+        "debug": "/nix/store/k756k2jr9j6rda6dzy6qh5m261q0pv3z-curl-8.13.0-debug",
+        "dev": "/nix/store/nmxr110602fvajr9ax8d65ac1g40vx1a-curl-8.13.0-dev",
+        "devdoc": "/nix/store/q736b72lp0j9qazprci468c5b8fn0xgr-curl-8.13.0-devdoc",
+        "man": "/nix/store/innps8d9bl9jikd3nsq8bd5irgrlay6f-curl-8.13.0-man",
+        "out": "/nix/store/v578vkzh0qhzczjvrzf64lqb2c74d5pk-curl-8.13.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -166,24 +178,27 @@
     {
       "attr_path": "dosbox-x",
       "broken": false,
-      "derivation": "/nix/store/2bzqkwxawyj99f9bpgmzz694fljy7zj1-dosbox-x-2024.07.01.drv",
+      "derivation": "/nix/store/88r4f7h9as4gizhgbx8nxbk50jm1sgh8-dosbox-x-2025.05.03.drv",
       "description": "Cross-platform DOS emulator based on the DOSBox project",
       "install_id": "dosbox-x",
       "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
-      "name": "dosbox-x-2024.07.01",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "dosbox-x-2025.05.03",
       "pname": "dosbox-x",
-      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
-      "rev_count": 665011,
-      "rev_date": "2024-08-11T07:55:43Z",
-      "scrape_date": "2024-08-14T02:08:40Z",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:36:15.951345Z",
+      "stabilities": [
+        "unstable"
+      ],
       "unfree": false,
-      "version": "2024.07.01",
+      "version": "2025.05.03",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/aamd4acmwfr4ikmz3iqhizhbxx45jcl6-dosbox-x-2024.07.01"
+        "out": "/nix/store/k6642w22hsbi8bbjf6pdai1x43bdcm34-dosbox-x-2025.05.03"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -192,24 +207,27 @@
     {
       "attr_path": "dosbox-x",
       "broken": false,
-      "derivation": "/nix/store/9vh784s8n3glabh2rh79k1avjm0wnayd-dosbox-x-2024.07.01.drv",
+      "derivation": "/nix/store/9mw142xjq7z0hk5zv7qzspmhnn0mapqm-dosbox-x-2025.05.03.drv",
       "description": "Cross-platform DOS emulator based on the DOSBox project",
       "install_id": "dosbox-x",
       "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
-      "name": "dosbox-x-2024.07.01",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "dosbox-x-2025.05.03",
       "pname": "dosbox-x",
-      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
-      "rev_count": 665011,
-      "rev_date": "2024-08-11T07:55:43Z",
-      "scrape_date": "2024-08-14T02:08:40Z",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:54:48.613034Z",
+      "stabilities": [
+        "unstable"
+      ],
       "unfree": false,
-      "version": "2024.07.01",
+      "version": "2025.05.03",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/jb6x01qq33n4axrxdpx3kk2pa64k6vcv-dosbox-x-2024.07.01"
+        "out": "/nix/store/rby5yxrv9mknkwa34rd0f0g52f6z9lp5-dosbox-x-2025.05.03"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -218,24 +236,27 @@
     {
       "attr_path": "dosbox-x",
       "broken": false,
-      "derivation": "/nix/store/dgd79apsqdnw9bcigpx40qifdf1qmki0-dosbox-x-2024.07.01.drv",
+      "derivation": "/nix/store/j83fv13gi3cd6glbrblkhmm7akdkqvcn-dosbox-x-2025.05.03.drv",
       "description": "Cross-platform DOS emulator based on the DOSBox project",
       "install_id": "dosbox-x",
       "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
-      "name": "dosbox-x-2024.07.01",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "dosbox-x-2025.05.03",
       "pname": "dosbox-x",
-      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
-      "rev_count": 665011,
-      "rev_date": "2024-08-11T07:55:43Z",
-      "scrape_date": "2024-08-14T02:08:40Z",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:12:23.187487Z",
+      "stabilities": [
+        "unstable"
+      ],
       "unfree": false,
-      "version": "2024.07.01",
+      "version": "2025.05.03",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/z9zkky6va8jasqwp7jl896icfjy56adn-dosbox-x-2024.07.01"
+        "out": "/nix/store/i3f6chdw3r3iifn6g0l4vpjcx95yg0l0-dosbox-x-2025.05.03"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -244,24 +265,27 @@
     {
       "attr_path": "dosbox-x",
       "broken": false,
-      "derivation": "/nix/store/bplcg6y14jp2y3n63z4kgx3w11i7lwkg-dosbox-x-2024.07.01.drv",
+      "derivation": "/nix/store/q3b3zd8ybnfl18vb41gmk9wabxbd0sax-dosbox-x-2025.05.03.drv",
       "description": "Cross-platform DOS emulator based on the DOSBox project",
       "install_id": "dosbox-x",
       "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
-      "name": "dosbox-x-2024.07.01",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "name": "dosbox-x-2025.05.03",
       "pname": "dosbox-x",
-      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
-      "rev_count": 665011,
-      "rev_date": "2024-08-11T07:55:43Z",
-      "scrape_date": "2024-08-14T02:08:40Z",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:32:28.070340Z",
+      "stabilities": [
+        "unstable"
+      ],
       "unfree": false,
-      "version": "2024.07.01",
+      "version": "2025.05.03",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/q55q20yb6j71dlv4f4x1w103nbanmls1-dosbox-x-2024.07.01"
+        "out": "/nix/store/46r4vz5pfq0cnfjc7cnc3sg7pd1mssm0-dosbox-x-2025.05.03"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -270,24 +294,27 @@
     {
       "attr_path": "unzip",
       "broken": false,
-      "derivation": "/nix/store/fhnxk9r30q1fmclcdmy0spxh18bsv96k-unzip-6.0.drv",
+      "derivation": "/nix/store/w8n5rvwm7gymg3j0y72rxg09ns3hz6lv-unzip-6.0.drv",
       "description": "Extraction utility for archives compressed in .zip format",
       "install_id": "unzip",
       "license": "Info-ZIP",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
       "name": "unzip-6.0",
       "pname": "unzip",
-      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
-      "rev_count": 665011,
-      "rev_date": "2024-08-11T07:55:43Z",
-      "scrape_date": "2024-08-14T02:08:40Z",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:37:12.846317Z",
+      "stabilities": [
+        "unstable"
+      ],
       "unfree": false,
       "version": "6.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/hgfklqs3vjrmr5a7pqq8gklx2sldzscf-unzip-6.0"
+        "out": "/nix/store/4m6gidk6njyymnmnmmf2avbiv353w3ha-unzip-6.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -296,24 +323,27 @@
     {
       "attr_path": "unzip",
       "broken": false,
-      "derivation": "/nix/store/ybfkw9xw614iknydc5aa0smqi77b4srh-unzip-6.0.drv",
+      "derivation": "/nix/store/5vij39pdakpg2z54zf70vccm7jjik8mq-unzip-6.0.drv",
       "description": "Extraction utility for archives compressed in .zip format",
       "install_id": "unzip",
       "license": "Info-ZIP",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
       "name": "unzip-6.0",
       "pname": "unzip",
-      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
-      "rev_count": 665011,
-      "rev_date": "2024-08-11T07:55:43Z",
-      "scrape_date": "2024-08-14T02:08:40Z",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T00:56:19.576761Z",
+      "stabilities": [
+        "unstable"
+      ],
       "unfree": false,
       "version": "6.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/vrbvia89r2yvvzswwb2dl1dmv8wi64xj-unzip-6.0"
+        "out": "/nix/store/ihn5b43g4b56wi3f45gxdj3bwwlagdyr-unzip-6.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -322,24 +352,27 @@
     {
       "attr_path": "unzip",
       "broken": false,
-      "derivation": "/nix/store/j3yrdkvasq9bgm4j6z0sgw2hqvm4wyrc-unzip-6.0.drv",
+      "derivation": "/nix/store/7kcsqpy9cp3c8z1616f7r1agpcm748s9-unzip-6.0.drv",
       "description": "Extraction utility for archives compressed in .zip format",
       "install_id": "unzip",
       "license": "Info-ZIP",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
       "name": "unzip-6.0",
       "pname": "unzip",
-      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
-      "rev_count": 665011,
-      "rev_date": "2024-08-11T07:55:43Z",
-      "scrape_date": "2024-08-14T02:08:40Z",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:13:21.632843Z",
+      "stabilities": [
+        "unstable"
+      ],
       "unfree": false,
       "version": "6.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/yzmjbd5n5qlgnpfsvi4s8ribc12rqm1b-unzip-6.0"
+        "out": "/nix/store/dgxx5s0ck43in8j6v2532h705cwpvmbk-unzip-6.0"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -348,24 +381,27 @@
     {
       "attr_path": "unzip",
       "broken": false,
-      "derivation": "/nix/store/86jp8g8f8pr0gkfv5cc4i3j3aq8ybhj1-unzip-6.0.drv",
+      "derivation": "/nix/store/gqpm044sbv17w1lbwfzkdv6a67sb5lrw-unzip-6.0.drv",
       "description": "Extraction utility for archives compressed in .zip format",
       "install_id": "unzip",
       "license": "Info-ZIP",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e83b64f727c88a7711a2c463a7b16eedb69a84c",
       "name": "unzip-6.0",
       "pname": "unzip",
-      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
-      "rev_count": 665011,
-      "rev_date": "2024-08-11T07:55:43Z",
-      "scrape_date": "2024-08-14T02:08:40Z",
+      "rev": "9e83b64f727c88a7711a2c463a7b16eedb69a84c",
+      "rev_count": 816272,
+      "rev_date": "2025-06-17T04:31:58Z",
+      "scrape_date": "2025-06-18T01:34:07.203872Z",
+      "stabilities": [
+        "unstable"
+      ],
       "unfree": false,
       "version": "6.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/wlrkr1gkqxwc530av5zm7zvyy9xhx35x-unzip-6.0"
+        "out": "/nix/store/18fldq25vyxpp0j3ss39qa3m2vzcvx1q-unzip-6.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
