@@ -22,6 +22,6 @@ STR
   chmod +x $out/bin/commander-keen
 '''
 description = "Commander Keen 1 - Marooned on Mars (1990) for DOSBox-X"
-sandbox = "pure"
+#sandbox = "pure"
 runtime-packages = ["dosbox-x"]
 version = "0.0.1"

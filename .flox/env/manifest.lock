@@ -30,7 +30,6 @@
         "runtime-packages": [
           "dosbox-x"
         ],
-        "sandbox": "pure",
         "version": "0.0.1",
         "description": "Commander Keen 1 - Marooned on Mars (1990) for DOSBox-X"
       }
