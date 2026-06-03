@@ -1,7 +1,8 @@
-version = 1
+schema-version = "1.12.0"
 
 [install]
 curl.pkg-path = "curl"
+curl.outputs = "all"
 dosbox-x.pkg-path = "dosbox-x"
 unzip.pkg-path = "unzip"
 
@@ -11,7 +12,7 @@ systems = ["aarch64-darwin", "aarch64-linux", "x86_64-darwin", "x86_64-linux"]
 [vars]
 ZIP_URI = "https://archive.org/download/msdos_Commander_Keen_1_-_Marooned_on_Mars_1990/Commander_Keen_1_-_Marooned_on_Mars_1990.zip"
 
-[build.commander-keen]
+[build.commander-keen-12345]
 command = '''
   mkdir -p $out/bin
   curl -sLO $ZIP_URI
